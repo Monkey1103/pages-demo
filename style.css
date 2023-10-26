@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*視窗底色設定*/
+body{	
+	background-color: rgb(137, 215, 110);
+}
+
+/*連結顏色設定*/
+a{
+	color: #412fdf;
+}
+
+a:hover{
+	color:#ff705b;
+}
+
+a:visited{
+	color: rgb(174, 34, 34);
+}
+
+/*頁面標題設定*/
+h1{
+	color:#ab72ce;
+	text-align:center;
+	font-size:250%;
+}
+
+/*次標題設定*/
+h2{
+	color:#d5656c;
+	border:#ab72ce 1px dotted;
+	border-left:#2398bf 10px solid;
+	padding:5px 20px;
+	margin-bottom:0;
+}
+
+/*內容標題設定*/
+dt{	
+	font-weight:bold;
+}
